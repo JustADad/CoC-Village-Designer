@@ -118,7 +118,7 @@
 
         void HelpFeedbackMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("http://www.alatreon-gc.com/cocforum/m/10772124/viewthread/5642512-just-dads-coc-village-designer/page/1");
+            System.Diagnostics.Process.Start("https://github.com/JustADad/CoC-Village-Designer/issues");
         }
 
         void SaveVillageAs()
