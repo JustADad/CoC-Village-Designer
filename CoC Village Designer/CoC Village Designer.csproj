@@ -36,7 +36,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>false</SignAssembly>
+    <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>JustADadAssemblyKey.pfx</AssemblyOriginatorKeyFile>
@@ -56,18 +56,12 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="WpfAnimatedGif, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\WpfAnimatedGif.1.4.0\lib\net\WpfAnimatedGif.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="AnimatedBanner.xaml.cs">
-      <DependentUpon>AnimatedBanner.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Building.xaml.cs">
       <DependentUpon>Building.xaml</DependentUpon>
     </Compile>
@@ -167,19 +161,12 @@
     <Compile Include="Data\StoreData.cs" />
     <Compile Include="Data\StoreItem.cs" />
     <Compile Include="Data\StoreSection.cs" />
-    <Compile Include="AnimatedSplashScreen.xaml.cs">
-      <DependentUpon>AnimatedSplashScreen.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ToolbarGroupButton.cs" />
     <Compile Include="ToolbarGroupItemButton.cs" />
     <Compile Include="Data\TownHallLevels.cs" />
     <Compile Include="Village.xaml.cs">
       <DependentUpon>Village.xaml</DependentUpon>
     </Compile>
-    <Page Include="AnimatedBanner.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Building.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -208,10 +195,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="AnimatedSplashScreen.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Village.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -236,7 +219,6 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="JustADadAssemblyKey.pfx" />
-    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -10,3 +10,6 @@ Version 3.3.1
 - Added additional options to toggle Air Attack Range Layer and Ground Attack Range Layer independently
 - Added context menu to XBow to toggle between Ground Only and Air and Ground targets.
 - Added new Alatreon Clan graphics.
+- Signed assembly with Visual Studio generated assembly key and strong name.
+- Ported project to GitHub.
+
