@@ -1,0 +1,12 @@
+﻿Version 3.3.0
+- Initial release
+
+Version 3.3.1
+- Added "Show Village Grid" to display grid line layer
+- Improved Attack Range Layer for units with minimum range (e.g. mortar).  Instead of two different colored circles, now the minimum range is not shaded (think donut geometry).
+- Changed Attack Range Layer color from White to Red.
+- Improved Spawn Shield Layer from simple rectangle that included shading the building to a rectanglar geometry with the building center cut out.
+- Changed Spawn Shield Layer color from SmokeWhite to Purple and from 90% transparent to 80% transparent.
+- Added additional options to toggle Air Attack Range Layer and Ground Attack Range Layer independently
+- Added context menu to XBow to toggle between Ground Only and Air and Ground targets.
+- Added new Alatreon Clan graphics.

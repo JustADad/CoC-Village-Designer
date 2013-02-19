@@ -1,0 +1,52 @@
+﻿<Window x:Class="JustADadSoftware.VillageDesigner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:JAD="clr-namespace:JustADadSoftware.VillageDesigner"
+        xmlns:Properties="clr-namespace:JustADadSoftware.VillageDesigner.Properties"
+        Title="{Binding Source={x:Static Properties:Resources.AssemblyTitle}}"
+        WindowStartupLocation="CenterScreen" Width="1024" Height="768"
+        Loaded="Window_Loaded">
+    <Window.CommandBindings>
+        <CommandBinding Command="Help" Executed="CommandBindingHelp_Executed" />
+        <CommandBinding Command="New" Executed="CommandBindingNew_Executed" />
+        <CommandBinding Command="Open" Executed="CommandBindingOpen_Executed" />
+        <CommandBinding Command="Save" Executed="CommandBindingSave_Executed" />
+        <CommandBinding Command="SaveAs" Executed="CommandBindingSaveAs_Executed" />
+    </Window.CommandBindings>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+                <MenuItem Header="_New" Command="New" />
+                <MenuItem Header="_Open" Command="Open" />
+                <Separator />
+                <MenuItem Header="_Save" Command="Save" />
+                <MenuItem Header="Save _As..." Command="SaveAs" />
+                <Separator />
+                <MenuItem Header="E_xit" Click="FileExitMenuItem_Click" />
+            </MenuItem>
+            <MenuItem Header="_View">
+                <MenuItem Name="groundAttackRangeLayerMenuItem" Header="Ground Attack Range Layer" IsCheckable="True" IsChecked="True" Checked="GroundAttackRangeLayerMenuItem_CheckedChanged" Unchecked="GroundAttackRangeLayerMenuItem_CheckedChanged" />
+                <MenuItem Name="airAttackRangeLayerMenuItem" Header="Air Attack Range Layer" IsCheckable="True" IsChecked="True" Checked="AirAttackRangeLayerMenuItem_CheckedChanged" Unchecked="AirAttackRangeLayerMenuItem_CheckedChanged" />
+                <MenuItem Name="spawnShieldLayerMenuItem" Header="Spawn Shield Layer" IsCheckable="True" IsChecked="True" />
+                <MenuItem Name="showVillageGridLinesMenuItem" Header="Show Village Grid" IsCheckable="True" IsChecked="False" />
+            </MenuItem>
+            <MenuItem Header="_Help">
+                <MenuItem Header="_View Help" Command="Help" />
+                <MenuItem Header="Provide _Feedback" Click="HelpFeedbackMenuItem_Click" />
+                <MenuItem Header="_About" Click="HelpAboutMenuItem_Click" />
+            </MenuItem>
+        </Menu>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <ScrollViewer Grid.Column="0" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                <StackPanel Name="toolBoxPanel" Width="250.0" Orientation="Vertical" Background="Black"  />
+            </ScrollViewer>
+            <Border Grid.Column="1" CornerRadius="20.0" BorderBrush="Black" BorderThickness="2.0" Background="LightGray">
+                <JAD:Village x:Name="village" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ShowSpawnShieldLayer="{Binding ElementName=spawnShieldLayerMenuItem, Path=IsChecked}" ShowVillageGridLines="{Binding ElementName=showVillageGridLinesMenuItem, Path=IsChecked}" />
+            </Border>
+        </Grid>
+    </DockPanel>
+</Window>

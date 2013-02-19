@@ -1,0 +1,10 @@
+﻿<UserControl x:Class="JustADadSoftware.VillageDesigner.AnimatedBanner"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:animatedGif="http://wpfanimatedgif.codeplex.com"
+             d:DesignHeight="300" d:DesignWidth="700"
+             mc:Ignorable="d">
+    <Image Name="animatedImage" animatedGif:ImageBehavior.AnimatedSource="Images/AlatreonBannerAnimated.gif" animatedGif:ImageBehavior.AnimateInDesignMode="True" animatedGif:ImageBehavior.AutoStart="True" animatedGif:ImageBehavior.RepeatBehavior="{Binding RepeatBehavior}" animatedGif:ImageBehavior.AnimationCompleted="Image_AnimationCompleted" />
+</UserControl>

@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<townHallLevels>
+  <townHallLevel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" level="1">
+    <details>
+      <townHallLevelDetail buildingID="ARMYCAMP" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="ELIXIRSTORAGE" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="GOLDSTORAGE" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="ELIXIRCOLLECTOR" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="GOLDMINE" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="BARRACKS" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="CANNON" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="WALL" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="ARCHERTOWER" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="WIZARDTOWER" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="AIRDEFENSE" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="MORTAR" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="SPRINGTRAP" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="GIANTBOMB" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="BOMB" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="BUILDERSHUT" minAllowed="0" maxAllowed="5" maxLevel="0" />
+      <townHallLevelDetail buildingID="LABORATORY" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="HIDDENTESLA" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="SPELLFACTORY" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="XBOW" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="SLOWBOMB" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="BARBARIANKING" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="DARKELIXIRPUMP" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="DARKELIXIRSTORAGE" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="ARCHERQUEEN" minAllowed="0" maxAllowed="0" maxLevel="0" />
+    </details>
+  </townHallLevel>
+  <townHallLevel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" level="2">
+    <details>
+      <townHallLevelDetail buildingID="ARMYCAMP" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="ELIXIRSTORAGE" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="GOLDSTORAGE" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="ELIXIRCOLLECTOR" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="GOLDMINE" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="BARRACKS" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="CANNON" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="WALL" minAllowed="0" maxAllowed="25" maxLevel="0" />
+      <townHallLevelDetail buildingID="ARCHERTOWER" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="WIZARDTOWER" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="AIRDEFENSE" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="MORTAR" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="SPRINGTRAP" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="GIANTBOMB" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="BOMB" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="BUILDERSHUT" minAllowed="0" maxAllowed="5" maxLevel="0" />
+      <townHallLevelDetail buildingID="LABORATORY" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="HIDDENTESLA" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="SPELLFACTORY" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="XBOW" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="SLOWBOMB" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="BARBARIANKING" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="DARKELIXIRPUMP" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="DARKELIXIRSTORAGE" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="ARCHERQUEEN" minAllowed="0" maxAllowed="0" maxLevel="0" />
+    </details>
+  </townHallLevel>
+  <townHallLevel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" level="3">
+    <details>
+      <townHallLevelDetail buildingID="ARMYCAMP" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="ELIXIRSTORAGE" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="GOLDSTORAGE" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="ELIXIRCOLLECTOR" minAllowed="0" maxAllowed="3" maxLevel="0" />
+      <townHallLevelDetail buildingID="GOLDMINE" minAllowed="0" maxAllowed="3" maxLevel="0" />
+      <townHallLevelDetail buildingID="BARRACKS" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="CANNON" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="WALL" minAllowed="0" maxAllowed="50" maxLevel="0" />
+      <townHallLevelDetail buildingID="ARCHERTOWER" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="WIZARDTOWER" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="AIRDEFENSE" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="MORTAR" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="SPRINGTRAP" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="GIANTBOMB" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="BOMB" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="BUILDERSHUT" minAllowed="0" maxAllowed="5" maxLevel="0" />
+      <townHallLevelDetail buildingID="LABORATORY" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="HIDDENTESLA" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="SPELLFACTORY" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="XBOW" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="SLOWBOMB" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="BARBARIANKING" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="DARKELIXIRPUMP" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="DARKELIXIRSTORAGE" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="ARCHERQUEEN" minAllowed="0" maxAllowed="0" maxLevel="0" />
+    </details>
+  </townHallLevel>
+  <townHallLevel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" level="4">
+    <details>
+      <townHallLevelDetail buildingID="ARMYCAMP" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="ELIXIRSTORAGE" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="GOLDSTORAGE" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="ELIXIRCOLLECTOR" minAllowed="0" maxAllowed="4" maxLevel="0" />
+      <townHallLevelDetail buildingID="GOLDMINE" minAllowed="0" maxAllowed="4" maxLevel="0" />
+      <townHallLevelDetail buildingID="BARRACKS" minAllowed="0" maxAllowed="3" maxLevel="0" />
+      <townHallLevelDetail buildingID="CANNON" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="WALL" minAllowed="0" maxAllowed="75" maxLevel="0" />
+      <townHallLevelDetail buildingID="ARCHERTOWER" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="WIZARDTOWER" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="AIRDEFENSE" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="MORTAR" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="SPRINGTRAP" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="GIANTBOMB" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="BOMB" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="BUILDERSHUT" minAllowed="0" maxAllowed="5" maxLevel="0" />
+      <townHallLevelDetail buildingID="LABORATORY" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="HIDDENTESLA" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="SPELLFACTORY" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="XBOW" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="SLOWBOMB" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="BARBARIANKING" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="DARKELIXIRPUMP" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="DARKELIXIRSTORAGE" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="ARCHERQUEEN" minAllowed="0" maxAllowed="0" maxLevel="0" />
+    </details>
+  </townHallLevel>
+  <townHallLevel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" level="5">
+    <details>
+      <townHallLevelDetail buildingID="ARMYCAMP" minAllowed="0" maxAllowed="3" maxLevel="0" />
+      <townHallLevelDetail buildingID="ELIXIRSTORAGE" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="GOLDSTORAGE" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="ELIXIRCOLLECTOR" minAllowed="0" maxAllowed="5" maxLevel="0" />
+      <townHallLevelDetail buildingID="GOLDMINE" minAllowed="0" maxAllowed="5" maxLevel="0" />
+      <townHallLevelDetail buildingID="BARRACKS" minAllowed="0" maxAllowed="3" maxLevel="0" />
+      <townHallLevelDetail buildingID="CANNON" minAllowed="0" maxAllowed="3" maxLevel="0" />
+      <townHallLevelDetail buildingID="WALL" minAllowed="0" maxAllowed="100" maxLevel="0" />
+      <townHallLevelDetail buildingID="ARCHERTOWER" minAllowed="0" maxAllowed="3" maxLevel="0" />
+      <townHallLevelDetail buildingID="WIZARDTOWER" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="AIRDEFENSE" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="MORTAR" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="SPRINGTRAP" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="GIANTBOMB" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="BOMB" minAllowed="0" maxAllowed="4" maxLevel="0" />
+      <townHallLevelDetail buildingID="BUILDERSHUT" minAllowed="0" maxAllowed="5" maxLevel="0" />
+      <townHallLevelDetail buildingID="LABORATORY" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="HIDDENTESLA" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="SPELLFACTORY" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="XBOW" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="SLOWBOMB" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="BARBARIANKING" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="DARKELIXIRPUMP" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="DARKELIXIRSTORAGE" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="ARCHERQUEEN" minAllowed="0" maxAllowed="0" maxLevel="0" />
+    </details>
+  </townHallLevel>
+  <townHallLevel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" level="6">
+    <details>
+      <townHallLevelDetail buildingID="ARMYCAMP" minAllowed="0" maxAllowed="3" maxLevel="0" />
+      <townHallLevelDetail buildingID="ELIXIRSTORAGE" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="GOLDSTORAGE" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="ELIXIRCOLLECTOR" minAllowed="0" maxAllowed="6" maxLevel="0" />
+      <townHallLevelDetail buildingID="GOLDMINE" minAllowed="0" maxAllowed="6" maxLevel="0" />
+      <townHallLevelDetail buildingID="BARRACKS" minAllowed="0" maxAllowed="3" maxLevel="0" />
+      <townHallLevelDetail buildingID="CANNON" minAllowed="0" maxAllowed="3" maxLevel="0" />
+      <townHallLevelDetail buildingID="WALL" minAllowed="0" maxAllowed="125" maxLevel="0" />
+      <townHallLevelDetail buildingID="ARCHERTOWER" minAllowed="0" maxAllowed="3" maxLevel="0" />
+      <townHallLevelDetail buildingID="WIZARDTOWER" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="AIRDEFENSE" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="MORTAR" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="SPRINGTRAP" minAllowed="0" maxAllowed="4" maxLevel="0" />
+      <townHallLevelDetail buildingID="GIANTBOMB" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="BOMB" minAllowed="0" maxAllowed="4" maxLevel="0" />
+      <townHallLevelDetail buildingID="BUILDERSHUT" minAllowed="0" maxAllowed="5" maxLevel="0" />
+      <townHallLevelDetail buildingID="LABORATORY" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="HIDDENTESLA" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="SPELLFACTORY" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="XBOW" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="SLOWBOMB" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="BARBARIANKING" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="DARKELIXIRPUMP" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="DARKELIXIRSTORAGE" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="ARCHERQUEEN" minAllowed="0" maxAllowed="0" maxLevel="0" />
+    </details>
+  </townHallLevel>
+  <townHallLevel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" level="7">
+    <details>
+      <townHallLevelDetail buildingID="ARMYCAMP" minAllowed="0" maxAllowed="4" maxLevel="0" />
+      <townHallLevelDetail buildingID="ELIXIRSTORAGE" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="GOLDSTORAGE" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="ELIXIRCOLLECTOR" minAllowed="0" maxAllowed="6" maxLevel="0" />
+      <townHallLevelDetail buildingID="GOLDMINE" minAllowed="0" maxAllowed="6" maxLevel="0" />
+      <townHallLevelDetail buildingID="BARRACKS" minAllowed="0" maxAllowed="4" maxLevel="0" />
+      <townHallLevelDetail buildingID="CANNON" minAllowed="0" maxAllowed="4" maxLevel="0" />
+      <townHallLevelDetail buildingID="WALL" minAllowed="0" maxAllowed="150" maxLevel="0" />
+      <townHallLevelDetail buildingID="ARCHERTOWER" minAllowed="0" maxAllowed="4" maxLevel="0" />
+      <townHallLevelDetail buildingID="WIZARDTOWER" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="AIRDEFENSE" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="MORTAR" minAllowed="0" maxAllowed="3" maxLevel="0" />
+      <townHallLevelDetail buildingID="SPRINGTRAP" minAllowed="0" maxAllowed="4" maxLevel="0" />
+      <townHallLevelDetail buildingID="GIANTBOMB" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="BOMB" minAllowed="0" maxAllowed="6" maxLevel="0" />
+      <townHallLevelDetail buildingID="BUILDERSHUT" minAllowed="0" maxAllowed="5" maxLevel="0" />
+      <townHallLevelDetail buildingID="LABORATORY" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="HIDDENTESLA" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="SPELLFACTORY" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="XBOW" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="SLOWBOMB" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="BARBARIANKING" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="DARKELIXIRPUMP" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="DARKELIXIRSTORAGE" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="ARCHERQUEEN" minAllowed="0" maxAllowed="0" maxLevel="0" />
+    </details>
+  </townHallLevel>
+  <townHallLevel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" level="8">
+    <details>
+      <townHallLevelDetail buildingID="ARMYCAMP" minAllowed="0" maxAllowed="4" maxLevel="0" />
+      <townHallLevelDetail buildingID="ELIXIRSTORAGE" minAllowed="0" maxAllowed="3" maxLevel="0" />
+      <townHallLevelDetail buildingID="GOLDSTORAGE" minAllowed="0" maxAllowed="3" maxLevel="0" />
+      <townHallLevelDetail buildingID="ELIXIRCOLLECTOR" minAllowed="0" maxAllowed="6" maxLevel="0" />
+      <townHallLevelDetail buildingID="GOLDMINE" minAllowed="0" maxAllowed="6" maxLevel="0" />
+      <townHallLevelDetail buildingID="BARRACKS" minAllowed="0" maxAllowed="4" maxLevel="0" />
+      <townHallLevelDetail buildingID="CANNON" minAllowed="0" maxAllowed="4" maxLevel="0" />
+      <townHallLevelDetail buildingID="WALL" minAllowed="0" maxAllowed="200" maxLevel="0" />
+      <townHallLevelDetail buildingID="ARCHERTOWER" minAllowed="0" maxAllowed="5" maxLevel="0" />
+      <townHallLevelDetail buildingID="WIZARDTOWER" minAllowed="0" maxAllowed="3" maxLevel="0" />
+      <townHallLevelDetail buildingID="AIRDEFENSE" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="MORTAR" minAllowed="0" maxAllowed="3" maxLevel="0" />
+      <townHallLevelDetail buildingID="SPRINGTRAP" minAllowed="0" maxAllowed="4" maxLevel="0" />
+      <townHallLevelDetail buildingID="GIANTBOMB" minAllowed="0" maxAllowed="3" maxLevel="0" />
+      <townHallLevelDetail buildingID="BOMB" minAllowed="0" maxAllowed="6" maxLevel="0" />
+      <townHallLevelDetail buildingID="BUILDERSHUT" minAllowed="0" maxAllowed="5" maxLevel="0" />
+      <townHallLevelDetail buildingID="LABORATORY" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="HIDDENTESLA" minAllowed="0" maxAllowed="3" maxLevel="0" />
+      <townHallLevelDetail buildingID="SPELLFACTORY" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="XBOW" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="SLOWBOMB" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="BARBARIANKING" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="DARKELIXIRPUMP" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="DARKELIXIRSTORAGE" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="ARCHERQUEEN" minAllowed="0" maxAllowed="1" maxLevel="0" />
+    </details>
+  </townHallLevel>
+  <townHallLevel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" level="9">
+    <details>
+      <townHallLevelDetail buildingID="ARMYCAMP" minAllowed="0" maxAllowed="4" maxLevel="0" />
+      <townHallLevelDetail buildingID="ELIXIRSTORAGE" minAllowed="0" maxAllowed="4" maxLevel="0" />
+      <townHallLevelDetail buildingID="GOLDSTORAGE" minAllowed="0" maxAllowed="4" maxLevel="0" />
+      <townHallLevelDetail buildingID="ELIXIRCOLLECTOR" minAllowed="0" maxAllowed="6" maxLevel="0" />
+      <townHallLevelDetail buildingID="GOLDMINE" minAllowed="0" maxAllowed="6" maxLevel="0" />
+      <townHallLevelDetail buildingID="BARRACKS" minAllowed="0" maxAllowed="4" maxLevel="0" />
+      <townHallLevelDetail buildingID="CANNON" minAllowed="0" maxAllowed="5" maxLevel="0" />
+      <townHallLevelDetail buildingID="WALL" minAllowed="0" maxAllowed="225" maxLevel="0" />
+      <townHallLevelDetail buildingID="ARCHERTOWER" minAllowed="0" maxAllowed="6" maxLevel="0" />
+      <townHallLevelDetail buildingID="WIZARDTOWER" minAllowed="0" maxAllowed="3" maxLevel="0" />
+      <townHallLevelDetail buildingID="AIRDEFENSE" minAllowed="0" maxAllowed="3" maxLevel="0" />
+      <townHallLevelDetail buildingID="MORTAR" minAllowed="0" maxAllowed="3" maxLevel="0" />
+      <townHallLevelDetail buildingID="SPRINGTRAP" minAllowed="0" maxAllowed="6" maxLevel="0" />
+      <townHallLevelDetail buildingID="GIANTBOMB" minAllowed="0" maxAllowed="4" maxLevel="0" />
+      <townHallLevelDetail buildingID="BOMB" minAllowed="0" maxAllowed="6" maxLevel="0" />
+      <townHallLevelDetail buildingID="BUILDERSHUT" minAllowed="0" maxAllowed="5" maxLevel="0" />
+      <townHallLevelDetail buildingID="LABORATORY" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="HIDDENTESLA" minAllowed="0" maxAllowed="4" maxLevel="0" />
+      <townHallLevelDetail buildingID="SPELLFACTORY" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="XBOW" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="SLOWBOMB" minAllowed="0" maxAllowed="0" maxLevel="0" />
+      <townHallLevelDetail buildingID="BARBARIANKING" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="DARKELIXIRPUMP" minAllowed="0" maxAllowed="2" maxLevel="0" />
+      <townHallLevelDetail buildingID="DARKELIXIRSTORAGE" minAllowed="0" maxAllowed="1" maxLevel="0" />
+      <townHallLevelDetail buildingID="ARCHERQUEEN" minAllowed="0" maxAllowed="1" maxLevel="0" />
+    </details>
+  </townHallLevel>
+</townHallLevels>

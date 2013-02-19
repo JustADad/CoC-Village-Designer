@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{03872F79-9D13-40AB-BA7C-1E0CCAB6E429}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JustADadSoftware.VillageDesigner</RootNamespace>
+    <AssemblyName>CoC Village Designer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>JustADadAssemblyKey.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WpfAnimatedGif, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WpfAnimatedGif.1.4.0\lib\net\WpfAnimatedGif.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="AnimatedBanner.xaml.cs">
+      <DependentUpon>AnimatedBanner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Building.xaml.cs">
+      <DependentUpon>Building.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BuildingAttackRangeAdorner.cs" />
+    <Compile Include="Buildings\AirDefense.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\ArcherQueen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\ArcherTower.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\ArmyBuilding.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\ArmyCamp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\AttackTargets.cs" />
+    <Compile Include="Buildings\BarbarianKing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\Barracks.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\Bomb.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\BuildersHut.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\BuildingFactory.cs" />
+    <Compile Include="Buildings\Cannon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\ClanCastle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\DarkElixirDrill.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\DarkElixirStorage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\DefensiveBuilding.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\ElixirCollector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\ElixirStorage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\GiantBomb.cs" />
+    <Compile Include="Buildings\GoldMine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\GoldStorage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\HiddenTesla.cs" />
+    <Compile Include="Buildings\Laboratory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\Mortar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\ResourceBuilding.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\SpellFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\SpringTrap.cs" />
+    <Compile Include="Buildings\TownHall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\Wall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buildings\WizardTower.cs" />
+    <Compile Include="Buildings\XBow.cs" />
+    <Compile Include="BuildingSpawnShieldAdorner.cs" />
+    <Compile Include="Data\TownHallLevel.cs" />
+    <Compile Include="Data\TownHallLevelDetail.cs" />
+    <Compile Include="Data\TownHallLevelDetailDictionary.cs" />
+    <Compile Include="HelpAboutDialog.xaml.cs">
+      <DependentUpon>HelpAboutDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HelpWindow.xaml.cs">
+      <DependentUpon>HelpWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ImageButton.xaml.cs">
+      <DependentUpon>ImageButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Data\StoreData.cs" />
+    <Compile Include="Data\StoreItem.cs" />
+    <Compile Include="Data\StoreSection.cs" />
+    <Compile Include="AnimatedSplashScreen.xaml.cs">
+      <DependentUpon>AnimatedSplashScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ToolbarGroupButton.cs" />
+    <Compile Include="ToolbarGroupItemButton.cs" />
+    <Compile Include="Data\TownHallLevels.cs" />
+    <Compile Include="Village.xaml.cs">
+      <DependentUpon>Village.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AnimatedBanner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Building.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HelpAboutDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HelpWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ImageButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="AnimatedSplashScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Village.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="JustADadAssemblyKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data\CoCStoreData.xml" />
+    <EmbeddedResource Include="Data\TownHallLevels.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ArmyScreen.png" />
+    <Resource Include="Images\DefensesScreen_1.png" />
+    <Resource Include="Images\DefensesScreen_2.png" />
+    <Resource Include="Images\Icon.png" />
+    <Resource Include="Images\ShopScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\AlatreonClanCastle.png" />
+    <Resource Include="Images\VillageBackground.png" />
+    <Resource Include="Images\VillageBorder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ResourcesScreen_1.png" />
+    <Resource Include="Images\ResourcesScreen_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Version History.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\AlatreonBannerAnimated.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <SplashScreen Include="Images\AlatreonBannerStill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\AlatreonClanLogo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
