@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoC Village Designer", "CoC Village Designer\CoC Village Designer.csproj", "{03872F79-9D13-40AB-BA7C-1E0CCAB6E429}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setupx64", "Setup\Setup.vdproj", "{F1164B28-E9CE-4358-A645-4C83A71DF29F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup_x32", "Setup_x32\Setup_x32.vdproj", "{E39028C6-037B-477B-B1F4-23AB3558392B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +17,10 @@ Global
 		{03872F79-9D13-40AB-BA7C-1E0CCAB6E429}.Debug|x86.Build.0 = Debug|x86
 		{03872F79-9D13-40AB-BA7C-1E0CCAB6E429}.Release|x86.ActiveCfg = Release|x86
 		{03872F79-9D13-40AB-BA7C-1E0CCAB6E429}.Release|x86.Build.0 = Release|x86
+		{F1164B28-E9CE-4358-A645-4C83A71DF29F}.Debug|x86.ActiveCfg = Debug
+		{F1164B28-E9CE-4358-A645-4C83A71DF29F}.Release|x86.ActiveCfg = Release
+		{E39028C6-037B-477B-B1F4-23AB3558392B}.Debug|x86.ActiveCfg = Debug
+		{E39028C6-037B-477B-B1F4-23AB3558392B}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

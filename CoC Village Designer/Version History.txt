@@ -12,4 +12,4 @@ Version 3.3.1
 - Added new Alatreon Clan graphics.
 - Signed assembly with Visual Studio generated assembly key and strong name.
 - Ported project to GitHub.
-
+- Added 32-bit and 64-bit setup projects.
